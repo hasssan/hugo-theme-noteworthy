@@ -5,16 +5,16 @@
 }
 
 @include media(900px) {
-	// TOP NAV
-	nav {
-		position: fixed;
-		// overflow-y: scroll;
-		height: 100%;
-		top: 0;
-		left: 36px;
-		width: 240px;
-		padding: 0px;
-	}
+    // TOP NAV
+    nav {
+        position: fixed;
+        overflow: auto;
+        height: 100%;
+        top: 0;
+        left: 36px;
+        width: 240px;
+        padding: 0px;
+    }
 
 	.site-title {
 		margin: 3em 0em 1em 0em;
